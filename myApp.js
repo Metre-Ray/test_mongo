@@ -11,6 +11,7 @@
 // Add `mongodb` and `mongoose` to the project's `package.json`. Then require 
 // `mongoose`. Store your **mLab** database URI in the private `.env` file 
 // as `MONGO_URI`. Connect to the database using `mongoose.connect(<Your URI>)`
+const mg = require('mongoose');
 
 
 /** # SCHEMAS and MODELS #
